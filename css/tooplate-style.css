@@ -625,8 +625,11 @@ http://www.tooplate.com/view/2098-health
   }
 
   .news-image {
-    margin-bottom: 30px;
     position: relative;
+    
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 30px;
   }
 
   .news-image img {
@@ -635,6 +638,31 @@ http://www.tooplate.com/view/2098-health
 
   .news-detail-thumb ul {
     margin: 32px 12px 22px 0px;
+  }
+
+  .carousel-control .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    opacity: 0.8;
+    font-size: 1em;
+  }
+
+  /* Ensure left/right positioning stays correct */
+  .carousel-control.left .fa {
+      left: 30%;
+  }
+
+  .carousel-control.right .fa {
+      left: 70%;
+  }
+
+  /* Optional hover effect for better user feedback */
+  .carousel-control:hover .fa {
+      opacity: 1;
+      color: #ffffff;
   }
 
   .news-detail-thumb ul li {
