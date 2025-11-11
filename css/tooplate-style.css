@@ -1110,7 +1110,7 @@ http://www.tooplate.com/view/2098-health
 
 
 .carousel {
-  width: 80vw;
+  /* width: 80vw; */
   margin: 0 auto;
   padding-bottom: 50px
 }
@@ -1442,4 +1442,5 @@ http://www.tooplate.com/view/2098-health
     left: 100%;
   }
 }
+
 
