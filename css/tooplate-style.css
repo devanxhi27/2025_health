@@ -458,15 +458,15 @@ http://www.tooplate.com/view/2098-health
   }
 
   .slider .item-first {
-    background-image: url(../images/slide1.jpg);
+    background-image: url(../images/slide1.png);
   }
 
   .slider .item-second {
-    background-image: url(../images/slide2.jpg);
+    background-image: url(../images/slide2.png);
   }
 
   .slider .item-third {
-    background-image: url(../images/slide3.jpg);
+    background-image: url(../images/slide3.png);
   }
 
 
@@ -1442,6 +1442,7 @@ http://www.tooplate.com/view/2098-health
     left: 100%;
   }
 }
+
 
 
 
