@@ -521,6 +521,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .team-contact-info {
+    margin-top: auto; /* This forces the border to align across all cards */
     border-top: 1px solid #e9e9e9;
     padding-top: 1.2em;
     margin-top: 1.5em;
@@ -561,6 +562,29 @@ http://www.tooplate.com/view/2098-health
     position: relative;
     top: 0;
   }
+
+.col-md-3.col-sm-6 {
+    display: flex;
+}
+
+.team-thumb {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* stretch to fill card */
+}
+
+.team-contact-info {
+    margin-top: auto; /* pushes border area to the bottom */
+}
+.team-info h3 {
+    margin-bottom: 0.7em; /* adjust as needed */
+}
 
   /* .team-thumb:hover .social-icon {
     opacity: 1;
@@ -1094,7 +1118,7 @@ http://www.tooplate.com/view/2098-health
   align-items: stretch;
 }
 
-#team .row:last-of-type > [class*="col-md-4"] {
+#team .row:last-of-type > [class*="col-md-3"] {
   display: flex;
   flex-direction: column;
 }
