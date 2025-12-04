@@ -156,6 +156,7 @@ http://www.tooplate.com/view/2098-health
   }
   .news-thumb img {
     border-radius: 10px 10px 0 0;
+    display: unset;
   }
 
   .news-info {
@@ -294,6 +295,13 @@ http://www.tooplate.com/view/2098-health
   }
 
   header span.date-icon {
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    padding-right: 19px;
+    padding-left: 19px;
+  }
+
+  header span.email-icon {
     border-left: 1px solid #f2f2f2;
     border-right: 1px solid #f2f2f2;
     padding-right: 19px;
@@ -1476,5 +1484,31 @@ http://www.tooplate.com/view/2098-health
 }
 
 
+#news .row:last-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+#news .row:last-of-type > [class*="col-md-3"] {
+  display: flex;
+  flex-direction: column;
+}
+
+#news .news-thumb {
+  flex: 1 1 auto;
+}
+
+.news-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.author
+ {
+  display: none;
+    margin-top: auto;
+}
 
 
