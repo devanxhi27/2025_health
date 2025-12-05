@@ -1511,4 +1511,10 @@ http://www.tooplate.com/view/2098-health
     margin-top: auto;
 }
 
+.team-thumb img {
+    filter: sepia(30%) contrast(120%);
+}
 
+/* .carousel-item img {
+    filter: sepia(20%) contrast(80%);
+} */
